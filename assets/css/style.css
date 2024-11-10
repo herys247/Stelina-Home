@@ -1617,6 +1617,7 @@ width:100%;
 @media (max-width: 767px){
 	.slider-area .carousel-inner .carousel-indicators li{display: inline-block;}
 	.slider-area .carousel-inner .carousel-indicators{top: initial;}
+  .carousel-indicators {display: none;}
 }
 /* slider_main_wrapper end */
 
@@ -3890,7 +3891,13 @@ width:100%;
   .navbar-brand>img {
     width: 133px;
     margin-top: 7px;
-	
+  }
+  .livechat-icon {
+    height: 40px;
+    width: 40px;
+    bottom: 20px;
+    right: 43px;
+}
 }
 
 @media(max-width: 480px){
